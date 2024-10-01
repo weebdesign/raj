@@ -1317,7 +1317,7 @@ font-size: 20px;
       margin: auto;
       position: absolute;
       bottom: 0px;
-      right: 35%;
+      right: 40%;
       bottom: 2px;
      }
    
@@ -1345,9 +1345,9 @@ font-size: 20px;
  
   
    }
-   @media only screen and (max-width:420px) {
+   @media only screen and (max-width:450px) {
     .header{
-      padding: 20px;
+      padding: 10px;
     }
     #payment .product {
       display: grid;
@@ -1360,6 +1360,190 @@ font-size: 20px;
     width: 110px;
     height: 120px;
      }
+    
+     #payment h5{
+      margin-top: 0.5rem;
+      margin-bottom: 2px;
+     }
+     #payment h4{
+      margin-top: 1rem;
+      margin-bottom: 5px;
+     }
+     #payment button{
+    
+      background-color: #088178;
+      color: #fff;
+      padding: 3px 6px;
+      font-size: 10px;
+      margin-top: 23px;
+      margin: auto;
+      position: absolute;
+      bottom: 8px;
+      right: 30%;
+     }
+     #cart{
+      position: fixed;
+      background-color:orangered;
+      /* top: 0%;
+      left:-65%; */
+
+      top: 0%;
+      right: 160%;
+      width: 450px;
+    
+     
+      height: 90vh;
+      border-radius: 12px;
+      border-bottom-right-radius: 0%;
+     transition: .4s;
+     }
+     #payment button{
+    
+      background-color: #088178;
+      color: #fff;
+      padding: 5px 8px;
+      font-size: 10px;
+      margin-top: 23px;
+      margin: auto;
+      position: absolute;
+      bottom: 0px;
+      right: 40%;
+      bottom: 2px;
+     }
+     
+   
+    
+     }
+
+      @media only screen and (max-width:420px) {
+    .header{
+      padding: 20px;
+    }
+    /* #payment{
+      margin-right: 50%;
+    } */
+    #payment .product {
+      display: grid;
+      grid-template-columns: repeat(2,1fr);
+      column-gap: 5px;
+      row-gap: 5px;
+      margin: 0px 55px 0 0;
+      padding: 0 1rem;
+     
+    
+     }
+     /* on active cart */
+     .active #cart{
+      /* left: calc(100% - 0%); */
+      left:0;
+
+    }
+    #cart{
+      position: fixed;
+      background-color: indigo;
+      top: 0%;
+      right: 100%;
+      width: 350px;
+      height: 80vh;
+      border-radius: 12px;
+      border-bottom-right-radius: 0%;
+     transition: .4s;
+   
+     }
+     .product img {
+    
+    width: 120px;
+    height: 140px;
+     }
+    
+     #payment h5{
+      margin-top: 0.5rem;
+      margin-bottom: 2px;
+     }
+     #payment h4{
+      margin-top: 1rem;
+      margin-bottom: 5px;
+     }
+     #payment button{
+    
+      background-color: #088178;
+      color: #fff;
+      padding: 3px 6px;
+      font-size: 10px;
+      margin-top: 30px;
+      margin: auto;
+      position: absolute;
+      bottom: 8px;
+      right: 40%;
+     }
+   
+    
+     }
+     @media only screen and (max-width:340px) {
+      .header{
+        padding: 10px;
+      }
+      /* #payment{
+        margin-right: 50%;
+      } */
+      #payment .product {
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+        column-gap: 5px;
+        row-gap: 5px;
+        margin: 0px 55px 0 0;
+        padding: 0 1rem;
+       
+      
+       }
+       /* on active cart */
+       .active #cart{
+        /* left: calc(100% - 0%); */
+        left:10px;
+  
+      }
+      #cart{
+        position: fixed;
+        background-color: indigo;
+        top: 0%;
+        right: 100%;
+        width: 100%;
+        height: 80vh;
+        border-radius: 12px;
+        border-bottom-right-radius: 0%;
+        transition: .4s;
+     
+       }
+       .product img {
+      
+      width: 100px;
+      height: 120px;
+       }
+      
+       #payment h5{
+        margin-top: 0.5rem;
+        margin-bottom: 2px;
+       }
+       #payment h4{
+        margin-top: 1rem;
+        margin-bottom: 5px;
+       }
+       #payment button{
+      
+        background-color: #088178;
+        color: #fff;
+        padding: 3px 6px;
+        font-size: 10px;
+        margin-top: 30px;
+        margin: auto;
+        position: absolute;
+        bottom: 8px;
+        right: 40%;
+       }
+     
+      
+       }
+  
     
      #payment h5{
       margin-top: 0.5rem;
