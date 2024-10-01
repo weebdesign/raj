@@ -1130,7 +1130,7 @@ box-shadow: 2px 2px 5px 03px black;
  }
  /* dinamic cart =============================*/
  #cart{
-  position: fixed;
+ position:absolute;
   background-color: indigo;
   top: 0%;
   right: -500%;
