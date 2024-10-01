@@ -1514,6 +1514,11 @@ font-size: 20px;
         transition: .4s;
      
        }
+          .active #cart{
+        /* left: calc(100% - 0%); */
+        left:0px;
+  
+      }
        .product img {
       
       width: 100px;
